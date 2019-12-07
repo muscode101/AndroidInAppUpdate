@@ -2,8 +2,6 @@ class MainActivity : DaggerAppCompatActivity() {
 
     private lateinit var myAppUpdater: MyAppUpdater
 
-    lateinit var serviceListener: io.reactivex.Observable<ServiceData>
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
