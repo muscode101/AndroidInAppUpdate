@@ -1,5 +1,3 @@
-package com.cop.mus.reactiontimer.utils
-
 import android.app.Activity
 import android.util.Log
 import com.github.javiersantos.appupdater.AppUpdater
